@@ -1,0 +1,148 @@
+
+.imgRedonda{
+    width:150px;
+    height:150px;
+    border-radius:150px;
+}
+
+.imgcuadrada{
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    overflow-x: scroll;
+    
+}
+
+.col-lg-4{
+    display: flexbox;
+    margin-top: 30px;
+    justify-content:center ;
+}
+
+
+.imgajustada{
+    width: 300px;
+    height: 300px;
+
+}
+
+.carousel-inner{
+    height: 300px;
+}
+
+.carousel-item{
+    height: 300px;
+}
+
+.btn-neon{
+ position: relative;
+ top: 30px;
+ display: inline-block;
+ padding: 15px 30px;
+ color: rgb(7, 7, 8);
+ letter-spacing: 1px;
+ font-size: 15px;
+ overflow: hidden;
+ transition: 0.2s;
+}
+
+.btn-neon:hover{
+    background: #0dc1ee;
+    box-shadow: 0 0 10px #0dc1ee, 0 0 60px #0dc1ee,0 0 80px #0dc1ee;
+    transition-delay: 1s;
+    text-decoration:none;
+    color: azure;
+}
+
+.btn-neon span{
+    position: absolute;
+    display: block;
+  }
+
+#span1{
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background-image:linear-gradient(90deg,transparent,#0d09f7);
+}
+.btn-neon:hover #span1{
+    left: 100%;
+    transition: 1s;
+}
+
+#span3{
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background-image:linear-gradient(270deg,transparent,#0d09f7);
+}
+.btn-neon:hover #span3{
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+#span2{
+    top:-100%;
+    right: 0;
+    width: 2.5px;
+    height: 100%;
+    background-image:linear-gradient(180deg,transparent,#219de6);
+}
+.btn-neon:hover #span2{
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+
+#span4{
+    bottom:-100%;
+    left:0;
+    width: 2.5px;
+    height: 100%;
+    background-image:linear-gradient(360deg,transparent,#219de6);
+}
+.btn-neon:hover #span4{
+    bottom:100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+
+#hero{
+    min-height: 100vh;
+    position: relative;
+}
+
+video{
+    position:absolute;
+    top: -100;
+    left: 10;
+    min-width: 200%;
+    min-height: 100%;
+    object-fit: cover;
+}
+
+
+.capa{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+img.wp-smiley,
+img.emoji {
+display: inline !important;
+border: none !important;
+box-shadow: none !important;
+height: 1em !important;
+width: 1em !important;
+margin: 0 0.07em !important;
+vertical-align: -0.1em !important;
+background: none !important;
+padding: 0 !important;
+}
+
